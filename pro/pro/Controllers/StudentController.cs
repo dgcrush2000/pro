@@ -8,6 +8,7 @@ using System.Web.Mvc;
 namespace pro.Controllers
 {
     public class StudentController : Controller
+
     {
         // GET: Student
         public ActionResult Index()

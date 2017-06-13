@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+    var student = (pro.Models.Students)ViewData["Student"];
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewBagViewDataWithObject</title>
+</head>
+<body>
+    <div> 
+        value by viewbag
+        student id : @ViewBag.Student.Id <br />
+        student Address : @ViewBag.Student.Address <br />
+        student Name : @ViewBag.Student.Name <br />
+    </div>
+    <div>
+        value by viewdata
+        @*Student Id : @ViewData["Student"].Id 
+            shows an error*@
+        <br />
+        if you want to retrieve the value of viewdata,then need to typecast first.
+        Student Id : @student.Id<br />
+        Student Name : @student.Name<br />
+        Student Address : @student.Address<br />
+
+    </div>
+</body>
+</html>

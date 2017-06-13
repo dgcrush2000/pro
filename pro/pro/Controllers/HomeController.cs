@@ -13,6 +13,7 @@ namespace pro.Controllers
         //1 call
         //return view without viewname.
         public ActionResult Index()
+
         {
             return View();
         }

@@ -14,5 +14,6 @@ namespace pro.Models
         }
         public DbSet<Students> student { get; set; }
         public DbSet<Employees> employee { get; set; }
+
     }
 }

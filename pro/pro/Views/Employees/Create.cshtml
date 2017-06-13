@@ -1,0 +1,25 @@
+﻿@model pro.Models.Employees
+
+@{
+    Layout = null;
+}
+
+@using(Html.BeginForm())
+{
+    @Html.ValidationSummary(true);
+    <fieldset>
+        <legend>Employee</legend>
+        @Html.LabelFor(model=>model.EmployeeName)
+        @Html.EditorFor(model=>model.EmployeeName)
+        @Html.ValidationMessageFor(model=>model.EmployeeName)
+
+        @Html.LabelFor(model => model.Address)
+        @Html.EditorFor(model => model.Address)
+        @Html.ValidationMessageFor(model => model.Address)
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+
+    </fieldset>
+}
