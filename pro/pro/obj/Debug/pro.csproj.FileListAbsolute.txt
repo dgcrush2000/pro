@@ -31,3 +31,7 @@ D:\My Data\MVC\git\pro\pro\pro\bin\System.Web.Mvc.xml
 D:\My Data\MVC\git\pro\pro\pro\obj\Debug\pro.csprojResolveAssemblyReference.cache
 D:\My Data\MVC\git\pro\pro\pro\obj\Debug\pro.dll
 D:\My Data\MVC\git\pro\pro\pro\obj\Debug\pro.pdb
+D:\My Data\MVC\git\pro\pro\pro\bin\EntityFramework.dll
+D:\My Data\MVC\git\pro\pro\pro\bin\EntityFramework.SqlServer.dll
+D:\My Data\MVC\git\pro\pro\pro\bin\EntityFramework.xml
+D:\My Data\MVC\git\pro\pro\pro\bin\EntityFramework.SqlServer.xml

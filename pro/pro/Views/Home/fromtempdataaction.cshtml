@@ -11,11 +11,16 @@
     <title>fromtempdataaction</title>
 </head>
 <body>
-    <div> 
+    <div>
         value available in tempdata when first nearest action call first time<br />
         if you refresh the page, temp data value will remove<br />
 
         @ViewData["StudentName"]<br />
+
+        @{
+            TempData.Keep("StudentName");
+        }
+
         @TempData["StudentName"]<br />
     </div>
 </body>
