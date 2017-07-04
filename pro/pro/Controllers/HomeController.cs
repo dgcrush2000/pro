@@ -56,7 +56,7 @@ namespace pro.Controllers
         {
             ViewData["StudentName"] = "Dattaram Garud";
             TempData["StudentName"] = "Dattaram Garud";
-          //  TempData.Peek("StudentName");
+           TempData.Peek("StudentName");
          //  TempData.Keep("StudentName");
             return RedirectToAction("fromtempdataaction");
         }

@@ -8,7 +8,7 @@ namespace pro.Models
 {
     public class StudentDB :DbContext
     {
-        public StudentDB():base("DBConnectionString")
+        public StudentDB():base("test")
         {
             Database.SetInitializer<StudentDB>(new CreateDatabaseIfNotExists<StudentDB>());
         }
